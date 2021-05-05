@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url(../fonts/MuseoSansCyrl-100.woff),
+    url(../fonts/MuseoSansCyrl-100Italic.woff),
+    url(../fonts/MuseoSansCyrl-300.woff),
+    url(../fonts/MuseoSansCyrl-300Italic.woff),
+    url(../fonts/MuseoSansCyrl-500.woff),
+    url(../fonts/MuseoSansCyrl-500Italic.woff),
+    url(../fonts/MuseoSansCyrl-700.woff),
+    url(../fonts/MuseoSansCyrl-700Italic.woff),
+    url(../fonts/MuseoSansCyrl-900.woff),
+    url(../fonts/MuseoSansCyrl-900Italic.woff);
+}

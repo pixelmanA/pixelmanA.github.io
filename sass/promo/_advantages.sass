@@ -1,0 +1,65 @@
+.advantages
+    min-height: 472px
+    padding: 70px 0 81px 0
+    &__header
+        font-size: 18px
+        font-weight: bold
+        font-stretch: normal
+        font-style: normal
+        line-height: normal
+        letter-spacing: normal
+        text-align: center
+        color: #0d0d0d
+    &__descr
+        margin-top: 27px
+        font-size: 14px
+        font-weight: 300
+        font-stretch: normal
+        font-style: normal
+        line-height: normal
+        letter-spacing: normal
+        text-align: center
+        color: #0d0d0d
+        a
+            color: #ff0000
+            text-decoration: underline
+    &__wrapper
+        display: flex
+        justify-content: flex-end
+        margin-top: 65px
+        
+    &__items
+        display: flex
+        align-items: center
+        flex-direction: column
+        max-width: 250px
+        margin-right: 100px
+        &:nth-child(3)
+            margin-right: 0px
+        img
+            margin-bottom: 38px
+        
+@keyframes heart 
+    from
+        transform: scale(1)
+    10%
+        transform: scale(1.1)
+    20%
+        transform: scale(0.9) 
+    30%
+        transform: scale(1.25)   
+    40%
+        transform: scale(0.85) 
+    50%
+
+    
+    to 
+        transform: scale(1.0)
+    
+
+.heart
+    // animation-name: heart
+    // animation-duration: 3s
+    animation: heart 2.9s ease infinite
+
+
